@@ -1,7 +1,10 @@
 <template>
   <v-app>
+    <v-app-bar app>cheritter</v-app-bar>
     <v-main>
-      <tweetcard></tweetcard>
+      <v-container>
+        <tweetcard></tweetcard>
+      </v-container>
     </v-main>
   </v-app>
 </template>
